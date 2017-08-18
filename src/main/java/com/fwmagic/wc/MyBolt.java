@@ -9,6 +9,7 @@ import backtype.storm.tuple.Values;
 
 /**
  * Created by admin on 2017/8/18.
+ * 自定义MyBolt
  */
 public class MyBolt extends BaseBasicBolt {
     //添加序列化id
