@@ -12,7 +12,7 @@ import backtype.storm.tuple.Values;
  * 自定义MyBolt
  */
 public class MyBolt extends BaseBasicBolt {
-    //添加序列化id
+    //添加序列化id12344
     private static final long serialVersionUID = 317153879824022121L;
 
     @Override
