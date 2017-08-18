@@ -11,6 +11,7 @@ import backtype.storm.tuple.Values;
  * Created by admin on 2017/8/18.
  */
 public class MyBolt extends BaseBasicBolt {
+    //添加序列化id
     private static final long serialVersionUID = 317153879824022121L;
 
     @Override

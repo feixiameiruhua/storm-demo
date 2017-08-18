@@ -17,7 +17,7 @@ import java.util.Map;
  * Created by admin on 2017/8/18.
  */
 public class MySpout extends BaseRichSpout {
-
+    //添加序列化id
     private static final long serialVersionUID = -806510556020545924L;
     private SpoutOutputCollector collector;
 

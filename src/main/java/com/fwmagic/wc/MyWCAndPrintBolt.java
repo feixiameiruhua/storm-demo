@@ -12,7 +12,7 @@ import java.util.Map;
  * Created by admin on 2017/8/18.
  */
 public class MyWCAndPrintBolt extends BaseBasicBolt {
-
+    //添加序列化id
     private static final long serialVersionUID = 2006509824957897376L;
     private Map<String,Integer> map = new HashMap<>();
 
