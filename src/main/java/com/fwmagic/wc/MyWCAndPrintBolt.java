@@ -13,6 +13,7 @@ import java.util.Map;
  */
 public class MyWCAndPrintBolt extends BaseBasicBolt {
 
+    private static final long serialVersionUID = 2006509824957897376L;
     private Map<String,Integer> map = new HashMap<>();
 
     @Override

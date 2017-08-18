@@ -11,6 +11,8 @@ import backtype.storm.tuple.Values;
  * Created by admin on 2017/8/18.
  */
 public class MyBolt extends BaseBasicBolt {
+    private static final long serialVersionUID = 317153879824022121L;
+
     @Override
     public void execute(Tuple tuple, BasicOutputCollector basicOutputCollector) {
         String line = (String)tuple.getValueByField("wc");
